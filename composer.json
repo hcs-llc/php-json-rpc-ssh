@@ -1,26 +1,20 @@
 {
-    "name": "datto/json-rpc-ssh",
+    "name": "hcs-llc/php-json-rpc-ssh",
     "type": "library",
-    "description": "SSH client and server for JSON-RPC 2.0",
+    "description": "A maintained fork of the datto/json-rpc-ssh package. SSH client and server for JSON-RPC 2.0.",
     "keywords": ["php", "json", "rpc", "jsonrpc", "json-rpc", "php-json-rpc", "ssh", "client", "server"],
-    "homepage": "http://datto.com",
-    "license": "LGPL-3.0",
+    "homepage": "https://www.hawkinscomputerservices.com/",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Spencer Mortensen",
-            "email": "smortensen@datto.com",
-            "homepage": "http://spencermortensen.com",
-            "role": "Developer"
-        },
-        {
-            "name": "Matt Coleman",
-            "email": "matt@datto.com",
-            "role": "Developer"
+            "name": "Hawkins Computer Services",
+            "homepage": "https://www.hawkinscomputerservices.com/",
+            "role": "Maintainer"
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "datto/json-rpc": "~1.0"
+        "php": ">=7.0.0",
+        "hcs-llc/php-json-rpc": "^6.1"
     },
     "autoload": {
         "psr-4": {
@@ -33,3 +27,4 @@
         }
     }
 }
+
